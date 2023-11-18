@@ -13,7 +13,7 @@
   },
   "content_scripts": [
     {
-      "js": ["scripts/standaloneIntentValidation.js"],
+      "js": ["js/utils.js","scripts/intentValidation.js"],
       "matches": [
         "https://eva-replica.hellojio.jio.com/portal/home/bots/*/intent/*"
       ]
